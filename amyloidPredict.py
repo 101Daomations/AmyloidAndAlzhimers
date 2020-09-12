@@ -8,7 +8,7 @@ from sklearn.metrics import classification_report
 
 """ Is delayed recall a better predictor than immediate recall"""
 # full dataset without alterations
-df_a = pd.read_csv('ADNIAVLTAmyloidClassification.csv')
+df_a = pd.read_csv('AmyloidData.csv')
 
 # setup to determine gender stats
 g_gender = df_a.groupby('sex')
